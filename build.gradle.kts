@@ -6,7 +6,7 @@ plugins {
     application
 }
 
-version = System.getenv("VERSION") ?: "0.1.0"
+version = System.getenv("VERSION") ?: "0.1.1"
 
 // Built against io.github.flyphantomfly:jadx-emu, resolved from ~/.m2 (publish it with the engine's own build).
 val emuVersion = System.getenv("EMU_VERSION") ?: "0.3.0"
@@ -18,6 +18,7 @@ val unidbgVersion = System.getenv("UNIDBG_VERSION") ?: "0.9.8"
 repositories {
     mavenLocal()
     mavenCentral()
+    google()
 }
 
 dependencies {
