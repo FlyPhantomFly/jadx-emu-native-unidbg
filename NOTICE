@@ -1,0 +1,9 @@
+jadx-emu-native-unidbg
+
+A native backend for jadx-emu (https://github.com/FlyPhantomFly/jadx-emu). It links against the jadx-emu engine (io.github.flyphantomfly:jadx-emu), which is licensed under the GNU General Public License version 2, so this project is distributed under GPLv2 as well. See LICENSE.
+
+Copyright (C) 2026 FlyPhantomFly.
+
+The jar built from this source bundles unidbg (https://github.com/zhkl0228/unidbg) and its dependencies. unidbg is licensed under the Apache License 2.0 and the bundled libraries keep their own licenses. Check that those licenses fit your use before redistributing a built jar.
+
+Free software under GPLv2, without any warranty. See LICENSE for the full text.
